@@ -1,0 +1,79 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    /*background-image: url(lps.jpg);*/
+    background-size: cover;
+    background-color:paleturquoise;
+  }
+  h2{
+    text-align: center;
+    color:palegreen;
+  }
+  h4{
+    text-align: center;
+    color: aqua;
+
+  }
+  h3{
+    text-align:center;
+    color: blueviolet;
+
+  }
+  header {
+    background-color:greenyellow;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+  }
+  
+  main {
+    padding: 20px;
+    padding-top: 40px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+    color: blueviolet;
+  }
+  nav{
+    text-align: right;
+    padding:10px;
+    padding-bottom: 5px;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course-card {
+    background-color:palegreen;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .course-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: aqua;
+    background-attachment: fixed;
+    color: #fff;
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
